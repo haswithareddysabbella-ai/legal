@@ -1,0 +1,4 @@
+lawyer_id,name,specialty,available
+L001,Asha Rao,Contract,true
+L002,Dev Kumar,Property,true
+L003,Meera Shah,Employment,false

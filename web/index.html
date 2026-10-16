@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>LegalSearch | Legal Document Analytics</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="brand">LegalSearch</div><div class="sub">Intelligent Legal Document Analytics Platform</div></header>
+<main>
+  <section class="hero"><p class="eyebrow">DSA PROJECT · MODULES 1–6</p><h1>Search legal information.<br><span>Understand the connections.</span></h1><p>Search the sample legal-document dataset, inspect cases, and add records. This website uses the same Java backend and CSV data as the console app.</p></section>
+  <section class="panel"><h2>Search legal documents</h2><form id="searchForm"><input id="query" placeholder="Try: contract, tenant, employment" aria-label="Search terms"><button>Search</button></form><div id="searchStatus" class="muted">Enter a term or phrase to search titles and document text.</div><div id="results" class="results"></div></section>
+  <section class="panel"><div class="section-head"><h2>Case register</h2><button id="refreshCases" class="secondary">Refresh cases</button></div><div id="cases" class="case-list"></div></section>
+  <section class="panel"><h2>Add a case</h2><form id="caseForm" class="case-form"><label>Case ID<input name="id" required placeholder="C004"></label><label>Title<input name="title" required placeholder="New case title"></label><label>Category<input name="category" placeholder="Contract"></label><label>Status<select name="status"><option>Open</option><option>In Review</option><option>Closed</option></select></label><button>Save case to CSV</button></form><div id="caseStatus" class="muted"></div></section>
+  <section class="modules"><h2>Six DSA modules</h2><div class="module-grid">
+    <article><b>01 · String algorithms</b><p>KMP, Z-function, Rabin–Karp, multi-term search.</p></article>
+    <article><b>02 · Suffix structures</b><p>Suffix arrays, LCP, substring-search demonstrations.</p></article>
+    <article><b>03 · Dynamic programming</b><p>Edit distance, weighted distance, bitmask DP, matrix-chain DP.</p></article>
+    <article><b>04 · Network flow</b><p>Max-flow and bipartite lawyer–case matching examples.</p></article>
+    <article><b>05 · NP-completeness</b><p>SAT/3-SAT and vertex-cover approximation examples.</p></article>
+    <article><b>06 · Randomized & parallel</b><p>Randomized quicksort, sampling, primality, scan and reduce.</p></article>
+  </div></section>
+</main><footer>Educational demo · Fictional sample data · Not legal advice</footer><script src="app.js"></script>
+</body></html>
